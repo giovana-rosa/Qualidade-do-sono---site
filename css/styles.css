@@ -1,0 +1,987 @@
+
+/*----Sobre nos-----*/
+section.sobre-nos div.geral div.bruno {
+    margin-right: 30vw;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 0 1vw 5vw 3vw;  /*(Espaço abaixo da imagem)*/ 
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 200px 0 0;
+}
+h2.nome a{
+    color: white;
+    margin: 0 0 0 14vw;
+    background-color: #be62c7;
+    padding: 0  3vw 0 2vw;
+    border-radius: 20px;
+}
+span.cor-de-fundo {
+    background-color: rgb(112, 19, 112);
+    padding: 1vw  3vw 0 1vw;
+    border-radius: 10px;
+   
+}
+
+
+
+/* Responsividade Sobre nós */
+
+@media (max-width: 576px) {
+    section.sobre-nos div.geral div.bruno {
+        margin: 3vw 0 3vw 0;
+    }
+    
+    .foto {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;  /*(Espaço abaixo da imagem)*/ 
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin: 0 40px 1vw 0;
+    }
+    h2.nome  a{
+        color: white;
+        margin: 0 0 5vw 9vw ;
+        background-color: #be62c7;
+        padding: 0 10vw 0 10vw;
+
+        border-radius: 20px;
+    }
+    
+
+    span.cor-de-fundo {
+        background-color: rgb(112, 19, 112);
+        padding: 1vw  0 0 0;
+        border-radius: 10px;
+        
+    }
+
+
+    
+}
+/*---- MAYARA ---- */
+
+/*-------------------------
+    FORMATAÇÃO TOPO
+------------------------*/
+
+header.topo nav ul li a.sobre {
+    background-color:rgb(102,51,102);
+    color: white;
+   
+}
+
+
+
+header.topo nav .sobre {
+    background: rgba(231, 7, 164, 0.932)
+}
+
+header.topo nav .sobre:hover {
+    background: rgba(202, 8, 189, 0.938);
+}
+
+/*-------------------------
+        FORMATAÇÃO GERAL
+--------------------------*/
+strong {
+    font-weight: bolder;
+}
+
+html body section.rotina {
+    font-size: 4rem;
+    padding: 3vw 20vw 0 20vw;
+}
+
+html body section.rotina h2 {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+html body section.rotina div ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-size: 1.5rem;
+    
+}
+
+html body section.rotina div ul li {
+    background-color: #E8DAFB;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: #8550b1;
+}
+
+section.alimentacao{
+    background-color: #E8DAFB;
+}
+section.alimentacao h2.centro {
+    text-align: center;
+}
+
+section.alimentacao p {
+    padding: 30px 15vw 0 15vw;
+    margin: 1vw 0 1.5vw 0;
+}
+section.alimentacao div.ruim {
+ background-color: white;
+ padding: 30px;
+ margin: 20px;
+}
+section.alimentacao div.ruim div button{
+    border: none;
+    padding: 10px 24px;
+    font-size: 1.4rem;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+
+section.alimentacao div.bom {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+}
+section.alimentacao div.bom div button{
+    border: none;
+    padding: 10px 24px;
+    font-size: 1.4rem;
+    margin: 20px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 20px;
+}
+
+section.alimentacao div.bom p {
+    padding: 30px 15vw 0 15vw;
+    text-align: justify;
+    margin: 0 3vw 0 3vw;
+
+}
+
+section.alimentacao div.ruim p {
+    text-align: justify;
+    margin: 0 3vw 0 3vw;
+}
+
+section.diquinha {
+    background-color: white;
+} 
+
+section.diquinha ul li { 
+    background-color: white;
+}
+
+section.diquinha h3 {
+    background-color: #E8DAFB ;
+    margin: 1vw;
+}
+
+section.diquinha div.corzinha {
+    background-color:  #d0beea;
+}
+
+section.diquinha h3 {
+    margin: 1vw 0 1vw 0;
+}
+
+section span {
+    background-color: rgb(102,51,102) ;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 30px 0 0;
+    padding: 10px;
+}
+
+section.diquinha h2 {
+    text-align: center;
+}
+
+section.diquinha p {
+    margin: 1vw;
+}
+
+section.telas div.t{
+    background-color:#faecf8;
+    text-align: center;
+    padding: 30px;
+}
+
+section.ambiente h2{
+    margin: 2vw;
+}
+
+section.ambiente h3 {
+    background-color:#faecf8;
+}
+
+section.ambiente p {
+    margin: 10px;
+}
+
+section.rotina ul button {
+    font-size: 1.1rem;
+    background-color: #E8DAFB;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/**Responsividade Mayara**/
+@media (max-width: 576px) {
+    section.rotina div.link ul {
+        justify-content: center;
+        margin: 0 0 7vw 0;
+      
+    }
+    section.rotina div.link ul li {
+        margin:  0 2px 0 0 ;
+       
+    }
+    section.rotina div.link ul li a {
+        font-size: 1.3rem;
+    }
+    section.alimentacao h2.centro {
+        text-align: center;
+        margin: 6px 0 0 0;
+        border: 3px solid white;
+        padding: 4px 10vw 4px 10vw;
+    }
+    section.alimentacao p {
+        border: 2px solid white;
+        padding: 10px 10vw 10px 10vw;
+        text-align: justify;
+    }
+    section.alimentacao div.ruim {
+        background-color: white;
+        padding: 2px;
+        margin: 30px;
+       }
+    section.alimentacao div.ruim p {
+        background-color: rgb(226, 205, 253);
+        text-align: justify;
+        margin: 0 3vw 0 3vw;
+    }
+    section.alimentacao div.bom {
+        background-color: white;
+        padding: 2px;
+        margin: 30px;
+    }
+    section.alimentacao div.bom p {
+        background-color: rgb(226, 205, 253);
+        text-align: justify;
+        margin: 0 3vw 0 3vw;
+        line-height: 20px;
+        
+    }
+    section.diquinha p {
+        font-size: 1.5rem;
+        line-height: 21px;
+    }
+    section.diquinha span {
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 8vw;
+    }
+    section.telas div.t{
+        background-color:#faecf8;
+        text-align: center;
+        padding: 15px;
+    }
+    section.ambiente h2{
+        margin: 3vw;
+    }
+    span.span-recolhivel-rotina {
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 8vw;
+    }
+    section.alimentacao {
+        padding: 25px 0 30px 0;
+    }
+     section.rotina div  {
+        padding: 12vw 0 3vw 0 
+    }
+    section.diquinha {
+        padding: 25px 0 30px 0;
+        margin: 4vw 4.5vw 1vw 4.5vw;
+    }
+    section.telas {
+        padding: 25px 0 30px 0;
+        margin: 4vw 4.5vw 1vw 4.5vw;
+    }
+    section.ambiente span {
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 8vw;
+
+    }
+    section.ambiente {
+        padding: 25px 0 30px 0;
+        margin: 0 3vw 0 3vw;
+    }
+    footer  {
+        padding: 25px 0 30px 0;
+    }
+    footer p {
+        margin: 0 1vw 0 1vw;
+    }
+}
+
+/*----- BRUNO -----*/
+
+html p {
+    font-family: "Roboto", sans-serif;
+    font-size: calc(10px + 0.4vw);
+}
+
+.w main {
+    background-color: rgba(218,221,251);
+}
+
+section.rere {
+    background-color: rgb(248, 235, 253);
+}
+
+section.rere h2 {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(227, 188, 250);
+    padding: 2vw 5px 2vw 5px;
+    margin: 0 3vw 0 3vw;
+}
+
+section.rere h2.aumento {
+    font-size: 2.6rem;
+    
+}
+
+section.rere p {
+    margin: 2vw 8vw 2vw 8vw;
+    background-color: rgb(224, 197, 226);
+    padding: 2vw 4vw 2vw 4vw;
+    border-radius: 13px;
+}
+
+section.maleficios {
+    background-color: rgb(226, 205, 253);
+}
+
+section.maleficios div {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+section.maleficios h2.aumento {
+    text-align: center;
+}
+
+section.maleficios p {
+    text-align: justify;
+    margin: 0 3vw 0 3vw;
+}
+
+
+
+section.maleficios div.ss h2 button {
+    border: none;
+    padding: 10px 24px ;
+    font-size: 1.4rem;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+section.maleficios div.bene h2 button {
+    border: none;
+    padding: 10px 24px;
+    font-size: 1.4rem;
+    margin: 20px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 20px;
+}
+
+section.referencia strong {
+    font-weight: bolder;
+}
+
+section.referencia  {
+    padding: 9vw 0 0 0;
+}
+
+section.referencia h2 {
+    margin: 0 0 0 14vw;
+}
+ 
+section.referencia {
+    padding: 5vw;
+}
+
+section.referencia {
+    background-color: #E8DAFB;
+    padding: 4vw 6vw 4vw 6vw;
+}
+
+section.referencia p {
+    font-size: 1.4rem;
+    line-height: 1.7vw;
+}
+
+/*Responsividade Bruno*/
+@media (max-width: 576px) {
+section p.tito {
+    text-align: justify;
+    margin: 3vw 2vw 0 2vw;
+    padding: 0 2vw 0 2vw;
+}
+section p.toti {
+    text-align: justify;
+    margin: 2vw 2vw 0 0;  
+    padding: 0 2vw 0 2vw;
+}
+section.maleficios div.ss h2 button {
+    margin: 20px 0 2vw 9vw;
+}
+section.maleficios div.bene h2 button {
+    margin: 20px 0 2vw 9vw;
+}
+section.maleficios div {
+    background-color: white;
+    padding: 2px;
+    margin: 30px;
+}
+section.maleficios h3 {
+    line-height: 24px;
+}
+section.maleficios p {
+    background-color: rgb(226, 205, 253);
+    text-align: justify;
+    margin-right: 2vw;
+    margin: 0;
+}
+.span-recolhivel-home {
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 8vw;
+}
+section.maleficios {
+    padding: 23px 0 30px 0;
+    margin: 0 2vw 0 2vw;
+}
+section.rere {
+    padding: 20px 0 30px 0;
+    
+}
+footer  {
+    padding: 25px 0 30px 0;
+}
+footer p {
+    margin: 0 1vw 0 1vw;
+}
+div.ss p {
+    margin: 0 3vw 0 3vw;
+}
+div.bene p {
+    margin: 0 3vw 0 3vw;
+}
+}
+
+
+/*-------------------------
+    FORMATAÇÃO TOPO
+------------------------*/
+/*-------------------------
+        FORMATAÇÃO GERAL
+--------------------------*/
+header.mui p{
+    font-size: 1.1rem;
+}
+
+section.alimentacao{
+    background-color: #E8DAFB;
+}
+
+/*FORMATAÇÃO JEANA*/
+
+
+section.resumo {
+    text-align: center;
+    background-color: rgb(231, 233, 253);
+    
+}
+section.resumo p.roxo {
+    background-color: rgb(102,51,102);
+    padding: 3vw;
+    color: white;
+    border-radius: 20px;
+}
+section.resumo p.lilas {
+    background-color: rgb(102,51,102);
+    padding: 3vw;
+    color: white;
+    border-radius: 20px;
+    margin: 2vw 0 0 0;
+}
+section span {
+    background-color: rgb(102,51,102) ;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 30px 0 0;
+    padding: 10px; 
+}
+section.listinha h3 {
+    margin: 20px 0 0 0;
+    background-color:#faecf8;
+}
+section.listinha p {
+    margin: 10px;
+}
+section .sim {
+    background-color: #faecf8;
+    line-height: 2vw;
+    padding: 2vw;
+    border-radius: 10px;
+}
+section h4 {
+    color: white;
+    background-color: rgb(102,51,102);
+    text-align: center;
+    font-size: 2rem;
+    padding: 2vw;
+    border-radius: 10px;
+    margin: 0 0 2vw 0;
+}
+section.imagem img {
+    border-radius: 10px;
+    margin: 2vw 0 0 0;
+}
+
+header.topo nav ul li a.sobre {
+    background-color:rgb(102,51,102);
+    color: white;
+}
+header.topo nav .sobre {
+    background: rgba(231, 7, 164, 0.932);
+}
+header.topo nav .sobre:hover {
+    background: rgba(202, 8, 189, 0.938);
+}
+
+/***********************
+        RESPONSIVIDADE
+***********************/
+
+
+@media (max-width: 576px) {    
+section span {
+    background-color: rgb(102,51,102) ;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px 5px 5px;
+
+}
+section.listinha h3 {
+    margin: 20px 0 0 0;
+    text-align: left;
+    background-color:#faecf8;
+    line-height: 20px;
+    border-radius: 7px;
+}
+section.listinha p {
+        margin: 10px;
+}
+ section.imagem p {
+    font-size: 1.2rem;
+    margin: 3px;
+    line-height: 12px;
+ }
+ section.imagem img {
+    width: 100%;
+    height: 50%;
+ }
+ section.video iframe.vi {
+    width: 100%;
+ }
+ section.resumo {
+    padding: 23px 0 30px 0;
+    
+ }
+ section.resumo p.roxo {
+    margin: 0 4vw 0 4vw;
+ }
+ section.resumo p.lilas {
+    margin: 1vw 4vw 0 4vw;
+ }
+ section.listinha span {
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 8vw;
+ }
+ section.listinha {
+    padding: 23px 0 30px 0;
+    margin: 0 2vw 0 2vw;
+ }
+ section.imagem {
+    padding: 23px 0 30px 0;
+    margin: 0 2vw 0 2vw;
+ }
+ }
+
+/*-----JEOVANA -----*/
+
+main {
+    background: linear-gradient(rgba(229, 156, 252, 0.5), rgba(229, 156, 252, 0.5)) no-repeat center center;
+}
+section h2.tan {
+    margin: 0 0 20px 0;
+}
+section.banner p {
+     display: flex;
+     justify-content: center;
+}
+main section.banner h2 {
+    font-size: 3rem;
+    padding: 0 0 5vw 0;
+    margin: 0 5vw 0 0;
+    color: rgb(102,51,102);
+   
+}
+
+
+section.lista nav ol li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    margin-bottom: 7px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 9px;
+    border-bottom: 1px solid black;
+}
+
+section.estagio div.black {
+    background: white;
+    padding: 5vw;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+section.estagio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    border: 3px solid white;
+    padding: 1vw 0 1vw 0;
+}
+section.estagio p {
+    text-align: justify;
+    line-height: 1.7vw;
+}
+
+section.estagio div.black h3 {
+    border: 3px solid rgba(248,218,251);
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+ section.lista h2 {
+     text-align: center;
+ }
+ 
+
+
+ 
+section.alinhamento h2 {
+     font-size: 2rem;
+}
+ 
+section.alinhamento strong {
+     font-weight: bolder;
+}
+ 
+section.alinhamento a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsividade Estagios do sono */
+@media (max-width: 576px) {
+section.banner p {
+    display: flex;
+    justify-content: center;
+}
+section.estagio {
+    padding: 23px 0 30px 0;
+}
+div.black {
+    margin: 0 2vw 0 2vw;
+}
+div.black p {
+    line-height: 15px;
+    margin: 0 0 15px 0;
+}
+.paragrafo-estagios {
+    padding: 23px 0 0 0;
+    margin: 0 3vw 0 3vw;
+}
+footer.je  {
+    padding: 25px 0 30px 0;
+}
+footer.je p {
+    margin: 0 1vw 0 1vw;
+}
+section.estagio h2 {
+    text-align: center;
+    border: 3px solid white;
+    padding: 1vw 0 1vw 0;
+    margin: 0 3vw 30px 3vw;
+}
+}
+
+/* Formatação correção */
+
+section.bannere p {
+    display: flex;
+    justify-content: center;
+}
+main section.bannere h2 {
+   font-size: 3rem;
+   padding: 0 0 2vw 0;
+   margin: 0 5vw 0 0;
+   color: rgb(102,51,102);
+}
+
+section.bannere {
+    text-align: center;
+    padding: 0vw 15vw 0 15vw;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(../images/banner.jpg) no-repeat center center;
+    background: linear-gradient(rgba(248,218,251), rgba(218,221,251));
+    min-height: 30vw;
+}
+section.bannere svg{
+    width: 30vw;
+}
+header nav ul li a.sobre {
+    background-color:rgb(102,51,102);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Correção espaçamento Mayara */
+
+section.banners p {
+    display: flex;
+    justify-content: center;
+}
+main section.banners h2 {
+   font-size: 3rem;
+   padding: 0 0 0 0;
+   margin: 0 5vw 0 0;
+   color: rgb(102,51,102);
+}
+
+section.banners {
+    text-align: center;
+    padding: 0vw 15vw 0 15vw;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(../images/banner.jpg) no-repeat center center;
+    background: linear-gradient(rgba(248,218,251), rgba(218,221,251));
+    min-height: 30vw;
+}
+section.banners svg{
+    width: 37vw;
+}
+header nav ul li a.sobre {
+    background-color:rgb(102,51,102);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header nav ul li a.sobre {
+    background-color:rgb(102,51,102);
+    color: white;
+}
+
+header nav .sobre {
+    background: rgba(231, 7, 164, 0.932)
+}
+
+header nav .sobre:hover {
+    background: rgba(202, 8, 189, 0.938);
+}
+
+
+/* Responsividade topo */
+
+@media (max-width: 576px) {
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(248,218,251);
+    }
+    header.topo nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2vw 0 0 0;
+    }
+    header.topo nav ul li {
+        display: flex;
+        margin: 2px;
+        font-size: 1rem;
+    }
+    header.topo nav ul li a {
+        text-decoration: none;
+        margin: 0 5vw 0 0 ;
+    }
+
+}
+
+/* Responsividade Referências */
+
+@media (max-width: 576px) {
+    section.home {
+        padding: 40vw 0 250px 0;
+    }
+    section.home p {
+        margin: 0 3vw 0 3vw;
+    }
+    span.span-recolhivel-referencia {
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 8vw;
+    }
+    ul.menu-recolhivel-referencia {
+        margin: 0 5vw 0 5vw;
+    }
+    section.home  ul.menu-recolhivel-referencia li {
+        margin: 3px 0 3px 0;
+    }
+    p.p-recolhivel-referencia {
+        padding: 1vw 0vw 1vw 0vw;
+    }
+
+
+}
+  
+
+
+
+
+
+/*MENU RECOLHIVEL - HOME*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+ul.menu-recolhivel-home li p.p-recolhivel-home {
+    display: none;
+    padding: 2vw 2vw 2vw 2vw;
+
+}
+ul.menu-recolhivel-home {
+    background-color: rgb(255, 255, 255);
+    padding: 2vw 2vw 2vw 2vw;
+}
+h3.h3-recolhivel-home {
+    background-color: rgb(203, 203, 234);
+    color:  rgb(102,51,102);
+    margin: 1vw 2vw 1vw 2vw;
+    padding: 2vw 2vw 2vw 2vw;
+}
+p.p-recolhivel-home {
+    background-color: rgba(248,218,251);
+    color: black;
+    padding: 1vw;
+}
+span.span-recolhivel-home {
+    background-color:  rgb(102,51,102);
+    border-radius: 8vw;
+}
+
+/*MENU RECOLHIVEL - ROTINA PRÉ-SONO*/
+
+ul.menu-recolhivel-rotina li p.p-recolhivel-rotina {
+    display: none;
+    padding: 2vw 2vw 2vw 2vw;
+}
+ul.menu-recolhivel-rotina {
+    background-color: rgb(255, 255, 255);
+    padding: 2vw 2vw 2vw 2vw;
+}
+h3.h3-recolhivel-rotina {
+    background-color: rgb(203, 203, 234);
+    color:  rgb(102,51,102);
+    margin: 1vw 2vw 1vw 2vw;
+    padding: 2vw 2vw 2vw 2vw;
+}
+p.p-recolhivel-rotina {
+    background-color: rgba(248,218,251);
+    color: black;
+    padding: 1vw;
+}
+span.span-recolhivel-rotina {
+    background-color:  rgb(102,51,102);
+    border-radius: 8vw;
+}
+
+/*MENU RECOLHIVEL - REFERENCIA*/
+
+ul.menu-recolhivel-referencia li p.p-recolhivel-referencia {
+    display: none;
+    padding: 2vw 2vw 2vw 2vw;
+}
+ul.menu-recolhivel-referencia {
+    background-color: rgb(255, 255, 255);
+    padding: 2vw 2vw 2vw 2vw;
+}
+h3.h3-recolhivel-referencia {
+    background-color: rgb(203, 203, 234);
+    color:  rgb(102,51,102);
+    margin: 1vw 2vw 1vw 2vw;
+    padding: 2vw 2vw 2vw 2vw;
+}
+p.p-recolhivel-referencia {
+    background-color: rgba(248,218,251);
+    color: black;
+    padding: 1vw;
+}
+span.span-recolhivel-referencia {
+    background-color:  rgb(102,51,102);
+    border-radius: 8vw;
+}
+
+/***<style>
+html {
+     background: linear-gradient(rgb(214, 135, 181), rgb(214, 135, 181)), linear-gradient(rgb(237, 245, 125), rgb(237, 245, 125)), linear-gradient(#79d0db, #79d0db);
+     background-size: 15vw 15vw;
+     background-repeat: no-repeat;
+     background-position: 25% 25%, 75% 25%, 50% 25%;
+     height: 20vw;
+ }
+</style>**/

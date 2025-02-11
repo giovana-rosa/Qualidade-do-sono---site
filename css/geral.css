@@ -1,0 +1,190 @@
+/* =======Fonte titulo*/
+
+/*
+font-family: "Noto Serif Oriya", serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Katibeh&family=Lobster&family=Marcellus+SC&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+Oriya:wght@400..700&family=Peddana&family=Purple+Purse&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Katibeh&family=Marcellus+SC&family=Noto+Serif+Oriya:wght@400..700&family=Peddana&family=Purple+Purse&display=swap');
+
+/*-------------------------
+        FORMATAÇÃO TEXTO
+--------------------------*/
+
+html {    
+    font-family: "Roboto", sans-serif;
+    font-size: calc(10px + 0.4vw);
+}
+h1, h2, h3, h4, h5,h6{   
+    font-family: "Satisfy", cursive;
+    font-weight: 500;
+}
+
+/*-------------------------
+        FORMATAÇÃO TOPO
+--------------------------*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(248,218,251);
+    align-items: center;
+    padding: 3vw 5vw 0vw 5vw;
+}
+
+header section.banner h2 {
+    padding: 0 0 1vw 0;
+}
+
+header nav h1{
+    vertical-align: center;
+    line-height: 100%;
+    
+}
+header nav h1 a{
+    text-decoration: none;
+    color: rgb(102,51,102);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+}
+header h2{
+    font-size: 3rem;
+    color: rgb(102,51,102);
+}
+header p{
+    color: rgb(59, 116, 134);
+    color: #263238;
+    width: 70%;
+    margin: 0 auto;
+}
+header nav img {
+    height: 20px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a  {
+    text-decoration: none;
+    margin: 0 2vw 0 0 ;
+    color:  rgb(43, 82, 94);
+    color: rgb(102,51,102);
+}
+
+/*Banner*/
+
+section.banner {
+    text-align: center;
+    padding: 0vw 15vw 0 15vw;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(../images/banner.jpg) no-repeat center center;
+    background: linear-gradient(rgba(248,218,251), rgba(218,221,251));
+    min-height: 30vw;
+}
+section.banner svg {
+    width: 30vw;
+}
+header nav ul li a.sobre {
+    background-color:rgb(102,51,102);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*-------------------------
+        FORMATAÇÃO CONTEÚDO
+--------------------------*/
+main {
+    background: rgba(218,221,251);
+    background-color: white;
+    font-size: 1.4rem;
+}
+
+main section {
+    background-color: rgba(0, green, blue, alpha);
+    padding: 3vw 15vw 3vw 15vw;
+}
+main section h2 {
+    font-size: 2rem;
+    color: rgb(102,51,102);
+}
+main section h3 {
+    color: rgb(40, 88, 102);
+    font-size: 1.8rem;
+}
+main section p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+html.q p {
+    font-size: 1.3rem;
+}
+html.w p {
+    font-size: 1.3rem;
+}
+html.t p {
+    font-size: 1.3rem;
+}
+html.y p {
+    font-size: 1.3rem;
+}
+html.o p {
+    font-size: 1.3rem;
+}
+html.lingua p {
+    font-size: 1.3rem;
+}
+/*-------------------------
+        FORMATAÇÃO RODAPÉ
+--------------------------*/
+footer {
+    background: rgb(203, 203, 234);
+    padding: 2vw 15vw 2vw 15vw;
+    text-align: center;
+    border-top: 5px solid rgb(194, 194, 235);
+}
+
+
+
+section.referencia p {
+    font-size: 1.4rem;
+    line-height: 1.7vw;
+}
+
+/*Formatação Geral*/
+
+
+section.banner p {
+    padding: 1vw 0 2vw 0;
+}
+
+footer.je {
+    background: rgb(203, 203, 234);
+    padding: 1.9vw 15vw 2.3vw 15vw;
+    text-align: center;
+    border-top: 5px solid rgb(194, 194, 235);
+   
+   
+}
+
+header nav ul li a:hover {
+    text-decoration: underline rgba(202, 8, 189, 0.938);
+    color: rgba(231, 7, 164, 0.932);
+
+}
+
+header nav ul li .sobre a {
+       color: rgba(202, 8, 189, 0.938);
+}
+
+
+
+
